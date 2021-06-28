@@ -3,6 +3,8 @@ package com.packtpub.mmj.restsample;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.util.logging.Logger;
+
 /**
  *
  * @author sousharm
@@ -16,5 +18,6 @@ public class RestSampleApp {
      */
     public static void main(String[] args) {
         SpringApplication.run(RestSampleApp.class, args);
+        Logger.getLogger("Ape").info("Adding logging capability");
     }
 }
